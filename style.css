@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.img1 {
+  padding: 28px;
+  width: 45%;
+  max-width: 250px;
+}
+
+.login {
+  margin: 0 auto;
+  max-width: 400px;
+  max-height: 400px;
+  background-color: rgba(203, 203, 203, .2);
+  box-shadow: 0px 3px 4px gray;
+  border-radius: 1px;
+  border: 0.1px solid grey;
+}
+
+p.one-account {
+  padding: 5px;
+  font-family: "Nunito", sans-serif, extra-light;
+  color: grey;
+  font-size: 3em
+}
+
+p.signin {
+  padding: 5px;
+  padding-bottom: 15px;
+  font-family: "Nunito", sans-serif, light;
+  color: grey;
+  font-size: 1.2em
+}
+
+.img2 {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  width: 35%;
+}
+
+.text-email {
+  padding-bottom: 10px;
+}
+
+.email {
+  border-radius: 2px;
+  padding: 10px;
+  width: 320px;
+  font-family: "Nunito", sans-serif, bold;
+  font-size: 1.2em;
+  font-weight: bold;
+  background-color: rgba(255, 255, 150, .8);
+}
+
+.next {
+  border-radius: 5px;
+  border: 1px solid lightblue;
+  padding: 10px;
+  background: rgba(0, 102, 255, 1);;
+  width: 320px;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  font-size: .9em;
+}
+
+.need-help {
+  padding: 10px;
+  width: 370px;
+  text-align: right;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  font-size: .9em;
+}
+
+.create-account {
+  padding: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+a:link {
+    text-decoration: none;
+}
